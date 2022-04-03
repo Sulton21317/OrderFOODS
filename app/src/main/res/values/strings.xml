@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">OrderFOODS</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Order FOODS</string>
+    <string name="menu_order">Buyurtmalarim</string>
+    <string name="menu_setting">Sozlamalar</string>
+    <string name="menu_about">Dastur haqida </string>
+    <string name="description">Meal delivery services have seen a major uptick in sales during the pandemic as people look for ways to avoid grocery shopping while social distancing, and to de-stress at least one aspect of their lives: Food prep. If you can afford to spend a little more on regular deliveries, meal kits are an easy way to ensure you have everything you need to make healthy meals all week long and cut down on the shopping and chopping. The field is growing, with specialty purveyors focusing on vegan foods, seasonal ingredients, and smoothies. Some services—like Sun Basket, Snap Kitchen, and Fresh and Easy—send you oven-ready meals that are ready to warm and serve, which can come in handy if you’re cooking challenged or used to getting takeout. For parents who are juggling childcare with working from home these days, there are even services like Yumble and Little Spoon that specifically cater to fussy kids. With so many options out there, we’ve curated a selection of the best meal kit delivery services to help you choose, all of which send everything you need to make amazing, restaurant-quality meals at home—and take grocery shopping and vegetable chopping off your to-do list. Think exciting and interesting meals, clear-cut and easy-to-follow instructions, and all the ingredients you need in the perfect amounts, so there’s no guesswork and no waste (not to mention no leaving the house or planning ahead).We’ve had a chance to try most of them firsthand, and we gotta say, they make us feel like accomplished home cooks. Note that because of increased demand for these kits during the pandemic, some ship times may be delayed. We’ve updated this story with any statements from brands that we find on their COVID-19 delivery schedule.</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.orderfoods.homepartui.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <argument
+            android:name="data"
+            app:argType="com.example.orderfoods.homepartui.api.model.Category" />
+        <action
+            android:id="@+id/action_homeFragment_to_homeShowFragment"
+            app:destination="@id/homeShowFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeShowFragment"
+        android:name="com.example.orderfoods.homepartui.ui.home.HomeShowFragment"
+        android:label="fragment_home_show"
+        tools:layout="@layout/fragment_home_show" >
+        <action
+            android:id="@+id/action_homeShowFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

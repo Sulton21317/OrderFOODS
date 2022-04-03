@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+
+    <com.rishabhharit.roundedimageview.RoundedImageView
+        android:id="@+id/roundedImageView2"
+        android:layout_width="144dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="fitXY"
+
+        android:src="@drawable/order_foodx"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:roundedCorners="all" />
+
+    <TextView
+        android:id="@+id/food_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Food Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/amethysta"
+        app:layout_constraintEnd_toEndOf="@+id/roundedImageView2"
+        app:layout_constraintStart_toStartOf="@+id/roundedImageView2"
+        app:layout_constraintTop_toBottomOf="@+id/roundedImageView2" />
+
+    <TextView
+        android:id="@+id/food_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="$30 000 "
+        android:fontFamily="@font/amethysta"
+        app:layout_constraintEnd_toEndOf="@+id/roundedImageView2"
+        app:layout_constraintStart_toStartOf="@+id/roundedImageView2"
+        app:layout_constraintTop_toBottomOf="@+id/food_name" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sell_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/colorRed"
+        android:text="Xarid qilish"
+        android:textSize="10sp"
+        app:cornerRadius="24dp"
+        android:fontFamily="@font/amethysta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/roundedImageView2"
+        app:layout_constraintTop_toBottomOf="@+id/food_price" />
+</androidx.constraintlayout.widget.ConstraintLayout>
